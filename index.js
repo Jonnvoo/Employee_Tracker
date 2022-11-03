@@ -1,6 +1,7 @@
 // These are the required packages that need to be installed to use this.
-const inquirer = require("inquirer")
+const inquirer = require("inquirer");
 const mysql = require("mysql2");
+const cTable = require("console.table");
 
 // This connects the mysql dataTables created
 const db = mysql.createConnection(
@@ -74,7 +75,7 @@ const departmentsTable = () => {
         mainPage();
 
     });
-};q
+};
 
 // This functionn creates a table that shows all employees with all their infromation by combinding multiple data tables.
 const employeesTables = () => {
@@ -100,7 +101,7 @@ const addDept = () => {
     db.query(query, (err, data) => {
         if (err) throw err;
 
-        console.log(data)
+        console.table(data)
 
         inquirer
             .prompt([
