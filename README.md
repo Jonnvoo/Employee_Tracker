@@ -43,7 +43,7 @@ Data Table
 ![ ScreenShot](./assets/EmployeesData.PNG)
 
 ## Link
-https://note-taker-jonnvoo.herokuapp.com/ 
+https://www.youtube.com/watch?v=GiLdrUKnnlE&t=5s 
 
 
 ## Questions 
